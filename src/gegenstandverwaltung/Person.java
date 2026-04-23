@@ -32,11 +32,13 @@ public class Person {
     }
 
     public boolean addGegenstand(Gegenstand g) {
+        // 10 KG Bedingung
         if(getragenerGewicht + g.getGewicht() > 10) {
             System.err.println("Eine Person darf nicht mehr als 10 kg gleichzeitig besitzen!");
             return false;
         }
 
+        // 5 Gegenstände Bedingung
         for(int i = 0; i < gegenstaende.length; i++) {
             if(gegenstaende[i] == null) {
                 getragenerGewicht += g.getGewicht();

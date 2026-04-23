@@ -98,6 +98,8 @@ public class Applikation {
     private static void weitergabe() {
         System.out.print("Geben Sie den Nachnamen der Person, der das Gegenstand abgeben soll: ");
         Person p1 = eingabePerson();
+
+        // 6 Weitergaben Bedingung
         if(p1.getAnzahlWeitergaben() >= 6) {
             System.err.println("Eine Person darf pro Programmdurchlauf nur 6 Gegenstände weitergeben!");
             return;
