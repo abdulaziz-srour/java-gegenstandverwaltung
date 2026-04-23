@@ -3,7 +3,7 @@
 A console-based object-oriented application to manage people, their belongings, and the transfer of items between them. The system strictly enforces business rules regarding weight limits and inventory capacities.
 
 ## Tech Stack
-* **Language:** Java (JDK)
+* **Language:** Java (JDK 25)
 * **Tools:** IntelliJ IDEA, Git
 
 ## Key Features & Quality Assurance
